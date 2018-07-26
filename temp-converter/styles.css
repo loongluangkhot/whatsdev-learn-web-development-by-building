@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #13293D;
+    font-family: Knewave, sans-serif;
+}
+
+div.input {
+    height: 30vh;
+}
+
+input {
+    width: 100vw;
+    height: 100%;
+    background: #13293D;
+    color: white;
+    font-family: Knewave, sans-serif;
+    font-size: 10em;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+
+#fahrenheit {
+    border-top: 4px solid #16324F;
+    border-bottom: 4px solid #16324F;
+}
+
+::-webkit-input-placeholder { /* chrome, opera, safari */
+    color: #16324F;
+}
+
+::-moz-placeholder { /* firefox */
+    color: #16324F;
+}
+
+::-ms-input-placeholder { /* edge */
+    color: #16324F;
+}
+
+#sign-off {
+    font-family: Quicksand, sans-serif;
+    color: white;
+    margin: auto;
+    width: 350px;
+    padding: 5px;
+    background-color: #16324F;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#my-github {
+    text-decoration: none;
+    color: white;
+}

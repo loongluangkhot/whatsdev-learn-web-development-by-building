@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3C153B;
+    color: white;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    /* color: #8B1E3F; */
+    color: #3C153B;
+    font-family: "Permanent Marker", sans-serif;
+}
+
+.score-board {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+}

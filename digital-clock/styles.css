@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('background.jpg');
+    color: white;
+    font-family: Quicksand, sans-serif;
+}
+
+.main {
+    background-color: #34262D;
+    height: 175px;
+    width:400px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+}
+
+.badge {
+    background-color: #09291C;
+    font-weight: bold;
+    width: 96px;
+    text-align: center;
+    padding: 5px 10px;
+    position: absolute;
+    left: 40%;
+    top: -15px;
+}
+
+.clock {
+    background-color: #96858055;
+    font-size: 55px;
+    text-align: center;
+    height: 100%;
+    padding-top: 25px;
+    border-radius: 4px;
+}
+
+#sign-off {
+    background-color: #09291C88;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#my-github {
+    text-decoration: none;
+    color: white;
+}
